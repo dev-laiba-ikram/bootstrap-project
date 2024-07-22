@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="project.css" />
+  </head>
+
+  <body>
+    <header id="main-menu">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo.png" alt="logo" class="w-100" />
+          </a>
+          <!-- toggler button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#main-menu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="main-menu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- SECTION -->
+    <section
+      id="slider"
+      class="carousel slid carousel-fade"
+      data-bs-ride="carousel"
+      data-bs-touch="true"
+    >
+      <div id="main-menu" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/banner_01.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/banner_02.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/banner_03.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 align-self-center">
+            <h1>About US</h1>
+            <h6>What We Do?</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+              molestias laborum voluptatibus facilis aliquam ducimus possimus
+              illum tempora blanditiis itaque.
+            </p>
+            <button class="btn btn-info">Learn More</button>
+          </div>
+          <div class="col-6">
+            <img src="./img/about.jpg" alt="meal" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION-CARD -->
+    <section id="work" class="pb-5 bg-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1>What We Work</h1>
+            <p class="mb-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-4">
+            <div class="card mb-3">
+              <img src="./img/image-44.jpg" alt="" />
+              <div class="card-body">
+                <div class="card-title">
+                  <h5>
+                    Rice with wild boar liver and cutted cheese from texas
+                  </h5>
+                </div>
+                <div class="card-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iste reprehenderit rem necessitatibus exercitationem
+                    distinctio explicabo, nihil molestias odio assumenda at?
+                  </p>
+                  <button class="btn btn-info mb-3">Read more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card mb-3">
+              <img src="./img/image-44.jpg" alt="" />
+              <div class="card-body">
+                <div class="card-title">
+                  <h5>
+                    Rice with wild boar liver and cutted cheese from texas
+                  </h5>
+                </div>
+                <div class="card-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iste reprehenderit rem necessitatibus exercitationem
+                    distinctio explicabo, nihil molestias odio assumenda at?
+                  </p>
+                  <button class="btn btn-info mb-3">Read more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card mb-3">
+              <img src="./img/image-44.jpg" alt="" />
+              <div class="card-body">
+                <div class="card-title">
+                  <h5>
+                    Rice with wild boar liver and cutted cheese from texas
+                  </h5>
+                </div>
+                <div class="card-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iste reprehenderit rem necessitatibus exercitationem
+                    distinctio explicabo, nihil molestias odio assumenda at?
+                  </p>
+                  <button class="btn btn-info mb-3">Read more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 text-center mb-3">
+            <div class="card-body">
+              <img src="./img/about-icon1.png" alt="" />
+              <div class="card-title text-center">
+                <h6>Delicious Food</h6>
+                <div class="card-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, provident?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 text-center mb-3">
+            <div class="card-body">
+              <img src="./img/about-icon2.png" alt="" />
+              <div class="card-title text-center">
+                <h6>Delicious Food</h6>
+                <div class="card-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, provident?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 text-center mb-3">
+            <div class="card-body">
+              <img src="./img/about-icon3.png" alt="" />
+              <div class="card-title text-center">
+                <h6>Delicious Food</h6>
+                <div class="card-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, provident?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--************ 
+      LINKS
+   **************-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  </body>
+</html>
